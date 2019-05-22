@@ -21,7 +21,7 @@ class BezoekerController extends Controller
      */
     public function indexAction()
     {
-
+        //test git
         return $this->render('bezoeker/index.html.twig',array('boodschap'=>'Welkom'));
     }
 
